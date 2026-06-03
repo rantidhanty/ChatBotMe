@@ -147,11 +147,12 @@ Semua penjelasan penting harus disimpan juga ke folder `docs/` dalam file Markdo
 
 Dokumen yang sudah ada:
 
-- `docs/01-panduan-belajar-dan-stack.md`
-- `docs/02-nextjs-structure.md`
-- `docs/03-istilah-scaffold.md`
-- `docs/04-menjalankan-nextjs.md`
-- `docs/05-route-page-layout.md`
+- `docs/01-fondasi/01-panduan-belajar-dan-stack.md`
+- `docs/01-fondasi/02-nextjs-structure.md`
+- `docs/01-fondasi/03-istilah-scaffold.md`
+- `docs/01-fondasi/04-menjalankan-nextjs.md`
+- `docs/01-fondasi/05-route-page-layout.md`
+- `docs/02-standar-workflow/01-conventional-commits.md`
 
 Index dokumen:
 
@@ -192,6 +193,7 @@ Materi yang sudah dibahas:
 3. arti istilah `scaffold`
 4. cara menjalankan project Next.js
 5. perbedaan `route`, `page`, dan `layout`
+6. dasar `Conventional Commits` sebagai standar workflow repository
 
 Status pemahaman saat ini:
 
@@ -215,6 +217,8 @@ Yang sudah dilakukan:
 9. menghubungkan repository lokal ke GitHub dan push branch `main`
 10. menambahkan `README.md` di root repository untuk halaman utama GitHub
 11. menetapkan standar commit mengikuti `Conventional Commits`
+12. memisahkan dokumentasi ke jalur `fondasi` dan `standar-workflow`
+13. menambahkan dokumen belajar `Conventional Commits` berbasis spesifikasi resmi
 
 Yang belum dilakukan:
 

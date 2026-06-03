@@ -59,13 +59,17 @@ npm run dev
 
 ## Dokumentasi Belajar
 
-Urutan belajar saat ini:
+Jalur fondasi saat ini:
 
-1. `docs/01-panduan-belajar-dan-stack.md`
-2. `docs/02-nextjs-structure.md`
-3. `docs/03-istilah-scaffold.md`
-4. `docs/04-menjalankan-nextjs.md`
-5. `docs/05-route-page-layout.md`
+1. `docs/01-fondasi/01-panduan-belajar-dan-stack.md`
+2. `docs/01-fondasi/02-nextjs-structure.md`
+3. `docs/01-fondasi/03-istilah-scaffold.md`
+4. `docs/01-fondasi/04-menjalankan-nextjs.md`
+5. `docs/01-fondasi/05-route-page-layout.md`
+
+Jalur standar workflow:
+
+1. `docs/02-standar-workflow/01-conventional-commits.md`
 
 Index dokumentasi:
 
