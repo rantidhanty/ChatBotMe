@@ -137,6 +137,34 @@ Setiap kali ada progres penting:
 - dokumentasi di folder `docs/` harus diperbarui
 - `CLAUDE.md` root harus diperbarui
 - status belajar dan status implementasi harus tetap sinkron
+- perubahan final harus di-commit dan di-push
+- commit message harus mengikuti format `Conventional Commits`
+
+## Standar Commit Yang Dipakai
+
+Project ini memakai standar `Conventional Commits`.
+
+Format umum:
+
+- `<type>: <description>`
+- `<type>(scope): <description>`
+
+Contoh:
+
+- `docs: update learning roadmap`
+- `feat(chat): add message input ui`
+- `fix(openai): handle missing api key`
+
+Tipe yang umum dipakai:
+
+- `feat`
+- `fix`
+- `docs`
+- `refactor`
+- `chore`
+- `test`
+
+Tujuannya agar history git lebih mudah dibaca, konsisten, dan enak dipelajari kembali.
 
 ## Kesimpulan
 

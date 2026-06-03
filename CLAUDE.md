@@ -157,6 +157,32 @@ Index dokumen:
 
 - `docs/README.md`
 
+## Standar Commit
+
+Repository ini wajib mengikuti format `Conventional Commits`.
+
+Format dasar yang dipakai:
+
+- `<type>: <description>`
+- `<type>(scope): <description>`
+
+Contoh:
+
+- `docs: add root repository readme`
+- `feat(chat): add basic chat page`
+- `fix(api): handle empty message input`
+
+Tipe yang paling sering dipakai di project ini:
+
+- `feat` untuk fitur baru
+- `fix` untuk perbaikan bug
+- `docs` untuk perubahan dokumentasi
+- `refactor` untuk perapian code tanpa mengubah perilaku utama
+- `chore` untuk setup atau maintenance
+- `test` untuk perubahan terkait testing
+
+Kalau ada breaking change, commit harus menandainya secara eksplisit sesuai aturan `Conventional Commits`.
+
 ## Progress Belajar
 
 Materi yang sudah dibahas:
@@ -188,6 +214,7 @@ Yang sudah dilakukan:
 8. membuat commit awal project dengan pesan yang jelas
 9. menghubungkan repository lokal ke GitHub dan push branch `main`
 10. menambahkan `README.md` di root repository untuk halaman utama GitHub
+11. menetapkan standar commit mengikuti `Conventional Commits`
 
 Yang belum dilakukan:
 
@@ -225,6 +252,7 @@ Kalau ada AI lain yang melanjutkan pekerjaan di repository ini, ikuti aturan ini
 - setiap perubahan yang sudah final pada turn kerja harus di-commit dengan pesan yang jelas
 - setelah commit dibuat, perubahan itu juga harus di-push ke remote `origin/main`
 - jangan pernah memasukkan file `.env` atau secret lain ke commit
+- semua pesan commit harus mengikuti standar `Conventional Commits`
 
 ## Kewajiban Update Progress
 
