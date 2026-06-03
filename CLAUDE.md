@@ -66,6 +66,9 @@ Status repository saat ini:
 
 - repository root ada di `C:\ChatBotMe`
 - git repository utama sudah diinisialisasi di root project
+- branch utama repository adalah `main`
+- remote GitHub `origin` sudah terhubung ke repository project
+- commit awal fondasi project sudah dibuat dan dipush ke GitHub
 - aplikasi Next.js ada di `C:\ChatBotMe\web`
 - folder dokumentasi belajar ada di `C:\ChatBotMe\docs`
 - belum ada logic chatbot
@@ -180,6 +183,8 @@ Yang sudah dilakukan:
 5. merapikan urutan dokumentasi agar dimulai dari panduan belajar paling dasar
 6. menyiapkan git repository utama di root project
 7. menambahkan `.gitignore` root untuk artefak development
+8. membuat commit awal project dengan pesan yang jelas
+9. menghubungkan repository lokal ke GitHub dan push branch `main`
 
 Yang belum dilakukan:
 
