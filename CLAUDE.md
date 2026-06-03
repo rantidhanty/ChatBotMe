@@ -152,6 +152,7 @@ Dokumen yang sudah ada:
 - `docs/01-fondasi/03-istilah-scaffold.md`
 - `docs/01-fondasi/04-menjalankan-nextjs.md`
 - `docs/01-fondasi/05-route-page-layout.md`
+- `docs/01-fondasi/06-komponen.md`
 - `docs/02-standar-workflow/01-conventional-commits.md`
 
 Index dokumen:
@@ -194,6 +195,7 @@ Materi yang sudah dibahas:
 4. cara menjalankan project Next.js
 5. perbedaan `route`, `page`, dan `layout`
 6. dasar `Conventional Commits` sebagai standar workflow repository
+7. konsep dasar `komponen` di React dan Next.js
 
 Status pemahaman saat ini:
 
@@ -219,6 +221,7 @@ Yang sudah dilakukan:
 11. menetapkan standar commit mengikuti `Conventional Commits`
 12. memisahkan dokumentasi ke jalur `fondasi` dan `standar-workflow`
 13. menambahkan dokumen belajar `Conventional Commits` berbasis spesifikasi resmi
+14. menambahkan dokumen fondasi tentang `komponen`
 
 Yang belum dilakukan:
 
