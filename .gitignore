@@ -1,0 +1,23 @@
+# Root project ignores
+
+# OS and editor
+.DS_Store
+Thumbs.db
+
+# Next.js app artifacts
+web/node_modules/
+web/.next/
+web/out/
+web/.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
