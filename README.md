@@ -67,6 +67,7 @@ Jalur fondasi saat ini:
 4. `docs/01-fondasi/04-menjalankan-nextjs.md`
 5. `docs/01-fondasi/05-route-page-layout.md`
 6. `docs/01-fondasi/06-komponen.md`
+7. `docs/01-fondasi/07-props.md`
 
 Jalur standar workflow:
 
