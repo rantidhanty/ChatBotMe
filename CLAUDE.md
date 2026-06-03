@@ -116,6 +116,7 @@ Alasan pemilihan stack saat ini:
 Beberapa prinsip yang harus dijaga:
 
 - API key hanya boleh disimpan di backend
+- file `.env` dan semua file environment sensitif wajib di-ignore dari git
 - jangan hardcode aplikasi hanya untuk satu provider
 - pisahkan logic provider ke layer terpisah saat waktunya tiba
 - belajar konsep dasar dulu sebelum menambah kompleksitas
@@ -221,6 +222,9 @@ Kalau ada AI lain yang melanjutkan pekerjaan di repository ini, ikuti aturan ini
 - jangan mendorong lompatan materi terlalu jauh sebelum fondasi dipahami
 - ikuti pola paralel antara implementasi project dan pembelajaran engineer
 - bantu engineer sampai memahami logika dan arsitektur, bukan hanya copy hasil
+- setiap perubahan yang sudah final pada turn kerja harus di-commit dengan pesan yang jelas
+- setelah commit dibuat, perubahan itu juga harus di-push ke remote `origin/main`
+- jangan pernah memasukkan file `.env` atau secret lain ke commit
 
 ## Kewajiban Update Progress
 
@@ -234,6 +238,7 @@ Yang wajib diperbarui:
 - perubahan arah arsitektur
 - perubahan stack
 - perubahan urutan belajar jika memang direvisi
+- status workflow repository bila ada aturan baru tentang commit, push, atau keamanan secret
 
 Contoh aturan penting:
 
