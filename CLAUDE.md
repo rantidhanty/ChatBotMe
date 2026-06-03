@@ -254,6 +254,32 @@ Kalau ada AI lain yang melanjutkan pekerjaan di repository ini, ikuti aturan ini
 - jangan pernah memasukkan file `.env` atau secret lain ke commit
 - semua pesan commit harus mengikuti standar `Conventional Commits`
 
+## SOP Wajib Untuk AI Berikutnya
+
+Isi file `CLAUDE.md` ini adalah SOP utama project, bukan catatan opsional.
+
+Artinya:
+
+- setiap AI berikutnya wajib membaca file ini sebelum bekerja
+- setiap AI berikutnya wajib mengikuti proses project yang tertulis di sini
+- setiap AI berikutnya wajib mengikuti pola pembelajaran engineer yang tertulis di sini
+- setiap AI berikutnya tidak boleh mengabaikan alur bertahap, aturan dokumentasi, aturan commit, dan aturan update progress
+
+SOP yang wajib diikuti mencakup:
+
+- pembangunan project secara bertahap
+- pembelajaran engineer secara paralel
+- penjelasan istilah teknis dengan bahasa sederhana
+- pembaruan dokumentasi `docs/`
+- pembaruan progress di `CLAUDE.md`
+- commit dan push untuk setiap perubahan final
+- larangan memasukkan secret ke repository
+- penggunaan standar `Conventional Commits`
+
+Kalau AI berikutnya melanggar SOP ini, maka konteks project, kualitas pembelajaran, dan konsistensi repository akan rusak.
+
+Karena itu, SOP di file ini harus diperlakukan sebagai aturan kerja wajib selama project masih berjalan dengan pola belajar paralel.
+
 ## Kewajiban Update Progress
 
 File `CLAUDE.md` ini wajib selalu diperbarui setiap ada perubahan penting pada project.
