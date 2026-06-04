@@ -34,3 +34,4 @@ Jalur ini berisi standar kerja repository dan workflow engineering.
 Jalur ini berisi evaluasi pemahaman engineer terhadap materi yang sudah dipelajari agar koreksi konsep bisa disimpan dan dibaca ulang.
 
 - [01-evaluasi-route-page-layout-komponen.md](C:/ChatBotMe/docs/03-evaluasi-pemahaman/01-evaluasi-route-page-layout-komponen.md)
+- [02-evaluasi-props-frontend-backend-api.md](C:/ChatBotMe/docs/03-evaluasi-pemahaman/02-evaluasi-props-frontend-backend-api.md)

@@ -156,6 +156,7 @@ Dokumen yang sudah ada:
 - `docs/01-fondasi/07-props.md`
 - `docs/02-standar-workflow/01-conventional-commits.md`
 - `docs/03-evaluasi-pemahaman/01-evaluasi-route-page-layout-komponen.md`
+- `docs/03-evaluasi-pemahaman/02-evaluasi-props-frontend-backend-api.md`
 
 Index dokumen:
 
@@ -200,12 +201,15 @@ Materi yang sudah dibahas:
 7. konsep dasar `komponen` di React dan Next.js
 8. konsep dasar `props` di React dan Next.js
 9. evaluasi awal pemahaman tentang `route`, `page`, `layout`, dan `komponen`
+10. evaluasi awal pemahaman tentang `props`, `frontend`, `backend`, dan `API`
 
 Status pemahaman saat ini:
 
 - masih belajar dasar fondasi Next.js
 - sudah mulai memahami konsep dasar `route`, `page`, `layout`, `komponen`, dan `props`
 - masih perlu penguatan terutama pada arti `layout` sebagai pembungkus bersama, bukan hanya posisi elemen
+- sudah mulai membedakan aliran data antar komponen dengan aliran data dari backend ke frontend
+- masih perlu penguatan agar tidak menyamakan `props` dengan `API`
 - belum masuk ke API route
 - belum masuk ke integrasi OpenAI
 
@@ -229,6 +233,7 @@ Yang sudah dilakukan:
 14. menambahkan dokumen fondasi tentang `komponen`
 15. menambahkan dokumen fondasi tentang `props`
 16. menambahkan dokumen evaluasi awal pemahaman engineer untuk `route`, `page`, `layout`, dan `komponen`
+17. menambahkan dokumen evaluasi awal pemahaman engineer untuk `props`, `frontend`, `backend`, dan `API`
 
 Yang belum dilakukan:
 
