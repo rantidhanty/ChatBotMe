@@ -22,6 +22,8 @@ Jalur ini berisi materi dasar untuk memahami fondasi project dan Next.js.
 - [05-route-page-layout.md](C:/ChatBotMe/docs/01-fondasi/05-route-page-layout.md)
 - [06-komponen.md](C:/ChatBotMe/docs/01-fondasi/06-komponen.md)
 - [07-props.md](C:/ChatBotMe/docs/01-fondasi/07-props.md)
+- [08-frontend-backend-nextjs.md](C:/ChatBotMe/docs/01-fondasi/08-frontend-backend-nextjs.md)
+- [09-praktik-chat-dummy-dengan-api-route.md](C:/ChatBotMe/docs/01-fondasi/09-praktik-chat-dummy-dengan-api-route.md)
 
 ### 02-standar-workflow
 

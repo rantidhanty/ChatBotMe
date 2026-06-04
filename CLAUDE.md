@@ -72,7 +72,7 @@ Status repository saat ini:
 - root repository sudah memiliki `README.md` untuk tampilan utama GitHub
 - aplikasi Next.js ada di `C:\ChatBotMe\web`
 - folder dokumentasi belajar ada di `C:\ChatBotMe\docs`
-- belum ada logic chatbot
+- sudah ada logic chatbot dummy untuk latihan dasar
 - belum ada integrasi provider AI
 - belum ada database
 - belum ada authentication
@@ -154,6 +154,8 @@ Dokumen yang sudah ada:
 - `docs/01-fondasi/05-route-page-layout.md`
 - `docs/01-fondasi/06-komponen.md`
 - `docs/01-fondasi/07-props.md`
+- `docs/01-fondasi/08-frontend-backend-nextjs.md`
+- `docs/01-fondasi/09-praktik-chat-dummy-dengan-api-route.md`
 - `docs/02-standar-workflow/01-conventional-commits.md`
 - `docs/03-evaluasi-pemahaman/01-evaluasi-route-page-layout-komponen.md`
 - `docs/03-evaluasi-pemahaman/02-evaluasi-props-frontend-backend-api.md`
@@ -202,6 +204,8 @@ Materi yang sudah dibahas:
 8. konsep dasar `props` di React dan Next.js
 9. evaluasi awal pemahaman tentang `route`, `page`, `layout`, dan `komponen`
 10. evaluasi awal pemahaman tentang `props`, `frontend`, `backend`, dan `API`
+11. perbedaan `frontend` dan `backend` di Next.js
+12. praktik awal alur chat dummy dengan `props` dan `API route`
 
 Status pemahaman saat ini:
 
@@ -210,7 +214,8 @@ Status pemahaman saat ini:
 - masih perlu penguatan terutama pada arti `layout` sebagai pembungkus bersama, bukan hanya posisi elemen
 - sudah mulai membedakan aliran data antar komponen dengan aliran data dari backend ke frontend
 - masih perlu penguatan agar tidak menyamakan `props` dengan `API`
-- belum masuk ke API route
+- sudah mulai masuk ke pemahaman dasar frontend vs backend di Next.js
+- sudah mulai masuk ke API route lewat latihan `/api/chat`
 - belum masuk ke integrasi OpenAI
 
 ## Progress Implementasi
@@ -234,24 +239,28 @@ Yang sudah dilakukan:
 15. menambahkan dokumen fondasi tentang `props`
 16. menambahkan dokumen evaluasi awal pemahaman engineer untuk `route`, `page`, `layout`, dan `komponen`
 17. menambahkan dokumen evaluasi awal pemahaman engineer untuk `props`, `frontend`, `backend`, dan `API`
+18. menambahkan dokumen fondasi tentang frontend dan backend di Next.js
+19. menambahkan dokumen praktik chat dummy dengan API route
+20. membuat halaman latihan `/chat` untuk mempraktikkan alur page, props, dan komponen client
+21. membuat endpoint backend dummy `/api/chat` untuk mempraktikkan request dari frontend ke backend
 
 Yang belum dilakukan:
 
-1. membuat UI chatbot
-2. membuat endpoint chat
-3. menghubungkan OpenAI API
-4. membuat struktur provider abstraction
-5. menyimpan history chat
+1. menghubungkan OpenAI API
+2. membuat struktur provider abstraction
+3. menyimpan history chat
+4. menambahkan penyimpanan data nyata
+5. menambahkan authentication
 
 ## Langkah Berikutnya
 
 Urutan belajar yang paling disarankan dari posisi sekarang:
 
-1. memahami komponen
-2. memahami props
-3. memahami perbedaan frontend dan backend di Next.js
-4. memahami API route
-5. mulai masuk ke arsitektur chatbot sederhana
+1. membedah latihan `/chat` file per file
+2. memahami `Route Handler` lebih dalam
+3. memahami data flow request dan response
+4. mulai merapikan struktur komponen chatbot
+5. baru setelah itu masuk ke integrasi provider AI
 
 ## Aturan Untuk AI Yang Melanjutkan
 

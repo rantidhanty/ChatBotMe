@@ -1,0 +1,76 @@
+.page {
+  display: grid;
+  gap: 32px;
+  width: min(1100px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 56px 0 72px;
+}
+
+.hero {
+  display: grid;
+  gap: 24px;
+}
+
+.copy {
+  display: grid;
+  gap: 14px;
+}
+
+.kicker {
+  color: #8a5a15;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.copy h1 {
+  max-width: 15ch;
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  line-height: 0.96;
+  color: #17231b;
+}
+
+.description {
+  max-width: 42rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #45584b;
+}
+
+.flowGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.flowCard {
+  padding: 20px;
+  border: 1px solid rgba(23, 35, 27, 0.1);
+  border-radius: 22px;
+  background: rgba(255, 249, 238, 0.8);
+}
+
+.flowCard h2 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #17231b;
+}
+
+.flowCard p {
+  color: #4b5f51;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .flowGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .page {
+    width: min(1100px, calc(100vw - 24px));
+    padding-top: 36px;
+  }
+}

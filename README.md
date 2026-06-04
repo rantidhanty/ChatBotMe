@@ -13,8 +13,9 @@ Saat ini project masih berada di tahap fondasi:
 
 - aplikasi web Next.js sudah dibuat di folder `web/`
 - dokumentasi belajar sudah dibuat di folder `docs/`
+- halaman latihan chat dasar sudah dibuat di route `/chat`
+- endpoint backend dummy sudah dibuat di `/api/chat`
 - integrasi OpenAI belum dimulai
-- UI chatbot belum dibuat
 
 ## Struktur Repository
 
@@ -68,6 +69,8 @@ Jalur fondasi saat ini:
 5. `docs/01-fondasi/05-route-page-layout.md`
 6. `docs/01-fondasi/06-komponen.md`
 7. `docs/01-fondasi/07-props.md`
+8. `docs/01-fondasi/08-frontend-backend-nextjs.md`
+9. `docs/01-fondasi/09-praktik-chat-dummy-dengan-api-route.md`
 
 Jalur standar workflow:
 
@@ -76,6 +79,20 @@ Jalur standar workflow:
 Index dokumentasi:
 
 - `docs/README.md`
+
+## Praktik Yang Sudah Bisa Dicoba
+
+Setelah menjalankan `npm run dev`, buka:
+
+- `http://localhost:3000/`
+- `http://localhost:3000/chat`
+
+Route `/chat` dipakai sebagai latihan awal untuk memahami:
+
+- peran `page`
+- peran komponen client
+- aliran `props`
+- request ke API route
 
 ## Catatan
 
