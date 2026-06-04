@@ -28,3 +28,9 @@ Jalur ini berisi materi dasar untuk memahami fondasi project dan Next.js.
 Jalur ini berisi standar kerja repository dan workflow engineering.
 
 - [01-conventional-commits.md](C:/ChatBotMe/docs/02-standar-workflow/01-conventional-commits.md)
+
+### 03-evaluasi-pemahaman
+
+Jalur ini berisi evaluasi pemahaman engineer terhadap materi yang sudah dipelajari agar koreksi konsep bisa disimpan dan dibaca ulang.
+
+- [01-evaluasi-route-page-layout-komponen.md](C:/ChatBotMe/docs/03-evaluasi-pemahaman/01-evaluasi-route-page-layout-komponen.md)
